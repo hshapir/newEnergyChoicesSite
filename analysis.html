@@ -11,18 +11,17 @@
 
     <link rel="icon" href="images/favicon.ico">
 
-    <title>Energy Choices | Home</title>
+    <title>Energy Choices | Energy Analysis</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom_override.css" rel="stylesheet">
-    <script src="js/imageScroller.js" type="text/javascript"></script>
 
 
     
 </head>
 
-<body onload="startTimer()">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -80,34 +79,69 @@
 
                         <li><a class="nav-link" href="newsletter.html">Newsletter</a></li>
 
-                        <li><a class="nav-link" href="contact">Contact Us</a></li>
+                        <li><a class="nav-link" href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
         </div>
     </nav>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <img id="carouselImg" src="images/background_1.jpg">
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h1> Solutions to Power Your Business</h1>
-                <p><strong>You have a choice</strong> when it comes to reducing your electricity and natural gas costs. Each day the dedicated team of experts at Energy Choices provides business customers with cost-effective solutions to help manage spiraling utility costs.<br />
-                </p>
-                <p>With our time tested knowledge of energy markets, you&rsquo;ll have the understanding to buy what you need, when you need it and at the best price available. With our proven negotiating power, you can achieve results that will meet or exceed your expectations.</p>
-                <p>Want to go &ldquo;green?&rdquo; We can help guide you to the best solution.</p>
-                
-                <p><strong>Put us to the test and get your free quote today.</strong><br />
-                    Let us help you make the right choice for your business.</p>
-                <div id="dnb"><!-- BEGIN: PowerProfiles.com Promotional Badge-Banner Tag -->
-                    <a href='http://dnb.powerprofiles.com/profile/019580500/ENERGY+CHOICES%2C+P.C.-NORTHBROOK-IL' target="_blank">Energy Choices, P.C.</a><br>
-                    <a href='http://dnb.powerprofiles.com/profile/019580500/ENERGY+CHOICES%2C+P.C.-NORTHBROOK-IL' target="_blank"><img src='http://dnb.powerprofiles.com/badge/019580500.gif' width="110" height="37" border="0"/></a><br>
-                    <a href='http://dnb.powerprofiles.com/' target="_blank">D&amp;B PowerProfiles online business directory</a>
+                <h1> Free Energy Analysis</h1>
+                  <h2>Fill out the form below and a sales representative will contact you.</h2>
+                  <form  method="post" action="sendform.php" enctype="multipart/form-data">
+                      <div class="form-group">
+                        <label for="firstName">First Name: </label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="company">Company: </label>
+                        <input type="text" class="form-control" id="company" placeholder="Company Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="address">Address: </label>
+                        <input type="text" class="form-control" id="address" placeholder="Address">
+                      </div>
+                      <div class="form-group">
+                        <label for="city">City: </label>
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                      </div>
+                      <div class="form-group">
+                        <label for="state">State: </label>
+                        <input type="text" class="form-control" id="state" placeholder="State">
+                      </div>
+                      <div class="form-group">
+                        <label for="zip">Zip Code: </label>
+                        <input type="number" class="form-control" id="zip" placeholder="Zip Code">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                      </div>
+                      <div class="form-group">
+                        <label for="acctNum">Account Number: </label>
+                        <input type="text" class="form-control" id="acctNum" placeholder="Account Number">
+                      </div>
+                      <div class="form-group">
+                        <label for="meterNum">Meter Number: </label>
+                        <input type="text" class="form-control" id="meternum" placeholder="Meter Number">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message (Services Needed / Extra Comments)</label>
+                        <textarea class="form-control" id="message" rows="6"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary"><a href=ysySubmit</button>
+                    </form>
                 </div>
-            </div>
         </div>
+    </div>
 
     <footer class="footer">
     	 <div class="container">

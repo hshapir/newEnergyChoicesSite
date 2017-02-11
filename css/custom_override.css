@@ -4,9 +4,36 @@
 
 .nav >li >a {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 .navbar-toggle {
   padding: 10px;
   margin: 25px 15px 25px 0;
+}
+
+body{
+	padding-top: 120px;
+}
+
+
+.footer{
+	margin-top: 20px;
+	width: 100%;
+	max-height: 50px;
+	display: block;
+	text-align: center;
+}
+
+h1{
+	color: #8ba4d5;
+	margin-left: -3px;
+}
+
+h3{
+	color: #649840;
+}
+
+#bio{
+	border-bottom: 2px solid grey;
+	margin-bottom: 15px;
 }
