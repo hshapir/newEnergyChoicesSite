@@ -1,0 +1,41 @@
+.nav-sidebar { 
+    padding: 30px 0px; 
+    border-right: 1px solid #ddd;
+    width: 100%;
+}
+@media (max-width: 1199px){
+    .nav-sidebar{
+
+    }
+}
+@media (min-width: 1200px){
+    .nav-sidebar {
+            position: fixed;
+            width: auto;
+    }
+}
+.nav > li > a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    padding: 15px;
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #0b56a8; 
+    color: #fff; 
+    padding: 15px;
+}
+.nav-sidebar .active a:hover {
+    background-color: #E50000;   
+    padding: 15px;
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}

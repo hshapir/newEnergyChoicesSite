@@ -1,1 +1,2 @@
-Licence for the Energy Choices Website
+All Rights Reserved.
+This site and all content within it are protected by copyright laws and international treaties.

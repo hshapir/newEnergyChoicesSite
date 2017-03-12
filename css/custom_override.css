@@ -35,7 +35,19 @@ h3{
 	color: #649840;
 }
 
+h4{
+	color: #23408F;
+}
+
 #bio{
 	border-bottom: 2px solid grey;
 	margin-bottom: 15px;
+}
+
+.underline{
+	border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #8BA4D5;
+    margin-bottom: 15px;
+    padding-bottom: 0px;
 }
