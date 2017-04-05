@@ -1,3 +1,7 @@
+.navbar-header {
+	margin-top: -20px;
+}
+
 .navbar-brand {
   height: 80px;
 }
@@ -8,7 +12,8 @@
 }
 .navbar-toggle {
   padding: 10px;
-  margin: 25px 15px 25px 0;
+  margin: 35px 15px 25px 0;
+  margin-bottom: 0;
 }
 
 body{
